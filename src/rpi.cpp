@@ -167,7 +167,7 @@ void AminoGfxRPi::initEGL() {
 
         //buffers
         EGL_STENCIL_SIZE, 8,
-        EGL_DEPTH_SIZE, 16,
+        EGL_DEPTH_SIZE, 32, // This is supposedly faster than 16
 
         //sampling (quality)
         EGL_SAMPLE_BUFFERS, 1,
