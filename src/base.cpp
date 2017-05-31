@@ -754,9 +754,9 @@ void AminoGfx::destroyAminoGfx() {
     if (started) {
         started = false;
 
-        bool res = bindContext();
+        // bool res = bindContext();
 
-        assert(res);
+        // assert(res);
 
         //renderer
         if (renderer) {
